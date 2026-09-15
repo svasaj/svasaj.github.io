@@ -23,14 +23,14 @@ repository               : "svasaj/svasaj.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : # "profile.png"
   name             : "Dr. Svajūnas Sajavičius"
   pronouns         : # example: "she/her"  
   bio              : "Applied Mathematician"
-  location         : "Earth"
+  location         : "Lithuania"
   employer         : # "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "svajunas.sajavicius@ktu.lt" 
 
   # Academic websites
   academia         : # URL
@@ -84,13 +84,19 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  preprints:
+    title: "Preprints"
   manuscripts:
-    title: 'Journal Articles'    
+    title: "Journal Articles"
+  books:
+    title: "Book Chapters"
   conferences:
-    title: 'Conference Papers'
-
+    title: "Conference Papers"
+  reports:
+    title: "Technical Reports"
+  abstracts:
+    title: "Extended Abstracts"
+    
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
